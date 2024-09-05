@@ -2,7 +2,7 @@ const express = require("express");
 const connectDB = require("./config/db");
 const contactRoutes = require("./routes/contactRoutes");
 const cors = require("cors");
-import postRoutes from "./routes/posts.js";
+const postRoutes = require("./routes/posts.js");
 
 const app = express();
 
